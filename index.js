@@ -10,7 +10,9 @@ const writeCards = (array, event) => {
     return messages
 }
 
-const countDown = () => {
-    
+const countDown = (int) => {
+    while(int >= 0 ) {
+        console.log(int--)
+    }
 }
 
